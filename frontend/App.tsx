@@ -145,7 +145,7 @@ export default function App() {
         sensor: sensorSelecionado,
         valor: valorNumerico,
         data: dataAtual,
-        status: calcularStatus(valorNumerico)
+        status: calcularStatus(valorNumerico, sensorSelecionado)
       }));
     } else {
       // MODO API

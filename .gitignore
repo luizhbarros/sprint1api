@@ -1,0 +1,33 @@
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+
+# ===== IDEs =====
+.idea/
+.vscode/
+*.iml
+
+# ===== Backend (Java / Maven / Spring Boot) =====
+backend/target/
+**/target/
+*.class
+*.log
+
+# Banco H2 (dados locais não devem ir para o repositório)
+data/
+backend/data/
+*.mv.db
+*.trace.db
+
+# ===== Frontend (Node / Expo) =====
+frontend/node_modules/
+**/node_modules/
+frontend/.expo/
+.expo/
+npm-debug.*
+yarn-error.*
+*.tgz
+
+# ===== Artefatos de entrega (não versionar) =====
+*.zip
+entrega*.txt
